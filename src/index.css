@@ -21,6 +21,22 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #2B283A;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+.instructions {
+  font-family: Inter, sans-serif;
+  color: #4A4E74;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin: 0px 45px 5px;
+  font-size: 0.9rem;
 }
 
 .dice-container {
