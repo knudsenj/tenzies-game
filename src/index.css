@@ -5,6 +5,9 @@
 body {
   margin: 0;
   background: #0B2434;
+}
+
+body, button {
   font-family: Karla, sans-serif;
 }
 
@@ -15,7 +18,9 @@ main {
   height: 320px;
   margin: 30px auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .dice-container {
@@ -24,7 +29,24 @@ main {
   width: 100%;
   justify-items: center;
   row-gap: 18px;
-  margin: 0 15px;
+  margin: 20px 15px;
+}
+
+.roll-button {
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+  color: white;
+  height: 36px;
+  width: 90px;
+  border: none;
+  cursor: pointer;
+}
+
+.roll-button:active {
+  transform: translate(1px, 1px);
+  color: #DDD;
+  background: #3e29c9;
 }
 
 /* #region Die */
